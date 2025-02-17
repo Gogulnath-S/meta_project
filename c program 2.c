@@ -14,6 +14,7 @@ int main(){
    while (fgets(disp, sizeof(disp), dest)) {
             printf("%s", disp);
    }
+   printf("yes");
     fclose(dest);
     return 0;
     }
